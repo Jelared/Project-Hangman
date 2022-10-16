@@ -1,0 +1,621 @@
+[gd_scene load_steps=77 format=2]
+
+[ext_resource path="res://scripts/Main2.gd" type="Script" id=1]
+[ext_resource path="res://Groupes/buttongroup_clavier.tres" type="ButtonGroup" id=2]
+[ext_resource path="res://Sprites/Pendu_5.png" type="Texture" id=3]
+[ext_resource path="res://Sprites/Pendu_6.png" type="Texture" id=4]
+[ext_resource path="res://Styles/Menu_norm.tres" type="StyleBox" id=5]
+[ext_resource path="res://Sprites/Pendu_3.png" type="Texture" id=6]
+[ext_resource path="res://Sprites/Pendu_0.png" type="Texture" id=7]
+[ext_resource path="res://Sprites/Pendu_2.png" type="Texture" id=8]
+[ext_resource path="res://Sprites/Pendu_4.png" type="Texture" id=9]
+[ext_resource path="res://Sprites/Pendu_1.png" type="Texture" id=10]
+[ext_resource path="res://Styles/Menu_boutton.tres" type="StyleBox" id=11]
+[ext_resource path="res://Sprites/Page.png" type="Texture" id=13]
+[ext_resource path="res://font/Interface_font.ttf" type="DynamicFontData" id=15]
+
+[sub_resource type="DynamicFont" id=60]
+size = 60
+font_data = ExtResource( 15 )
+
+[sub_resource type="DynamicFontData" id=2]
+font_path = "res://font/Affichage font.ttf"
+
+[sub_resource type="DynamicFont" id=3]
+size = 40
+font_data = SubResource( 2 )
+
+[sub_resource type="DynamicFont" id=57]
+font_data = ExtResource( 15 )
+
+[sub_resource type="InputEventKey" id=5]
+scancode = 65
+
+[sub_resource type="ShortCut" id=6]
+shortcut = SubResource( 5 )
+
+[sub_resource type="DynamicFont" id=58]
+font_data = ExtResource( 15 )
+
+[sub_resource type="InputEventKey" id=7]
+scancode = 66
+
+[sub_resource type="ShortCut" id=8]
+shortcut = SubResource( 7 )
+
+[sub_resource type="InputEventKey" id=9]
+scancode = 67
+
+[sub_resource type="ShortCut" id=10]
+shortcut = SubResource( 9 )
+
+[sub_resource type="InputEventKey" id=11]
+scancode = 68
+
+[sub_resource type="ShortCut" id=12]
+shortcut = SubResource( 11 )
+
+[sub_resource type="InputEventKey" id=13]
+scancode = 69
+
+[sub_resource type="ShortCut" id=14]
+shortcut = SubResource( 13 )
+
+[sub_resource type="InputEventKey" id=15]
+scancode = 70
+
+[sub_resource type="ShortCut" id=16]
+shortcut = SubResource( 15 )
+
+[sub_resource type="InputEventKey" id=17]
+scancode = 71
+
+[sub_resource type="ShortCut" id=18]
+shortcut = SubResource( 17 )
+
+[sub_resource type="DynamicFont" id=59]
+font_data = ExtResource( 15 )
+
+[sub_resource type="InputEventKey" id=19]
+scancode = 72
+
+[sub_resource type="ShortCut" id=20]
+shortcut = SubResource( 19 )
+
+[sub_resource type="InputEventKey" id=21]
+scancode = 73
+
+[sub_resource type="ShortCut" id=22]
+shortcut = SubResource( 21 )
+
+[sub_resource type="InputEventKey" id=23]
+scancode = 74
+
+[sub_resource type="ShortCut" id=24]
+shortcut = SubResource( 23 )
+
+[sub_resource type="InputEventKey" id=25]
+scancode = 75
+
+[sub_resource type="ShortCut" id=26]
+shortcut = SubResource( 25 )
+
+[sub_resource type="InputEventKey" id=27]
+scancode = 76
+
+[sub_resource type="ShortCut" id=28]
+shortcut = SubResource( 27 )
+
+[sub_resource type="InputEventKey" id=29]
+scancode = 77
+
+[sub_resource type="ShortCut" id=30]
+shortcut = SubResource( 29 )
+
+[sub_resource type="InputEventKey" id=31]
+scancode = 78
+
+[sub_resource type="ShortCut" id=32]
+shortcut = SubResource( 31 )
+
+[sub_resource type="InputEventKey" id=33]
+scancode = 79
+
+[sub_resource type="ShortCut" id=34]
+shortcut = SubResource( 33 )
+
+[sub_resource type="InputEventKey" id=35]
+scancode = 80
+
+[sub_resource type="ShortCut" id=36]
+shortcut = SubResource( 35 )
+
+[sub_resource type="InputEventKey" id=37]
+scancode = 81
+
+[sub_resource type="ShortCut" id=38]
+shortcut = SubResource( 37 )
+
+[sub_resource type="InputEventKey" id=39]
+scancode = 82
+
+[sub_resource type="ShortCut" id=40]
+shortcut = SubResource( 39 )
+
+[sub_resource type="InputEventKey" id=41]
+scancode = 83
+
+[sub_resource type="ShortCut" id=42]
+shortcut = SubResource( 41 )
+
+[sub_resource type="InputEventKey" id=43]
+scancode = 84
+
+[sub_resource type="ShortCut" id=44]
+shortcut = SubResource( 43 )
+
+[sub_resource type="InputEventKey" id=45]
+scancode = 85
+
+[sub_resource type="ShortCut" id=46]
+shortcut = SubResource( 45 )
+
+[sub_resource type="InputEventKey" id=47]
+scancode = 86
+
+[sub_resource type="ShortCut" id=48]
+shortcut = SubResource( 47 )
+
+[sub_resource type="InputEventKey" id=49]
+scancode = 87
+
+[sub_resource type="ShortCut" id=50]
+shortcut = SubResource( 49 )
+
+[sub_resource type="InputEventKey" id=51]
+scancode = 88
+
+[sub_resource type="ShortCut" id=52]
+shortcut = SubResource( 51 )
+
+[sub_resource type="InputEventKey" id=53]
+scancode = 89
+
+[sub_resource type="ShortCut" id=54]
+shortcut = SubResource( 53 )
+
+[sub_resource type="InputEventKey" id=55]
+scancode = 90
+
+[sub_resource type="ShortCut" id=56]
+shortcut = SubResource( 55 )
+
+[sub_resource type="SpriteFrames" id=1]
+animations = [ {
+"frames": [ ExtResource( 7 ), ExtResource( 10 ), ExtResource( 8 ), ExtResource( 6 ), ExtResource( 9 ), ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "default",
+"speed": 5.0
+} ]
+
+[sub_resource type="DynamicFont" id=61]
+font_data = ExtResource( 15 )
+
+[sub_resource type="DynamicFont" id=62]
+font_data = ExtResource( 15 )
+
+[sub_resource type="InputEventKey" id=63]
+scancode = 32
+
+[sub_resource type="ShortCut" id=64]
+shortcut = SubResource( 63 )
+
+[node name="Main" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_top = 2.0
+margin_bottom = 2.0
+script = ExtResource( 1 )
+groupe_clavier = ExtResource( 2 )
+
+[node name="Page" type="Sprite" parent="."]
+visible = false
+position = Vector2( 546, 662 )
+scale = Vector2( 0.5, 0.5 )
+texture = ExtResource( 13 )
+
+[node name="Titre" type="Label" parent="."]
+margin_left = 125.0
+margin_right = 1024.0
+margin_bottom = 71.0
+custom_colors/font_color = Color( 0, 0, 0, 1 )
+custom_fonts/font = SubResource( 60 )
+text = "LE PENDU"
+align = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Affichage" type="RichTextLabel" parent="."]
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = 141.0
+margin_top = -55.0
+margin_bottom = 7.0
+custom_colors/default_color = Color( 0, 0, 0, 1 )
+custom_fonts/normal_font = SubResource( 3 )
+bbcode_enabled = true
+
+[node name="Container" type="Container" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="Button_A" type="Button" parent="Container"]
+margin_left = 131.0
+margin_top = 442.0
+margin_right = 171.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 57 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 6 )
+group = ExtResource( 2 )
+text = "A"
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Button_B" type="Button" parent="Container"]
+margin_left = 179.0
+margin_top = 442.0
+margin_right = 219.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 8 )
+group = ExtResource( 2 )
+text = "B"
+
+[node name="Button_C" type="Button" parent="Container"]
+margin_left = 226.0
+margin_top = 442.0
+margin_right = 266.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 10 )
+group = ExtResource( 2 )
+text = "C"
+
+[node name="Button_D" type="Button" parent="Container"]
+margin_left = 273.0
+margin_top = 442.0
+margin_right = 313.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 12 )
+group = ExtResource( 2 )
+text = "D"
+
+[node name="Button_E" type="Button" parent="Container"]
+margin_left = 319.0
+margin_top = 442.0
+margin_right = 359.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 14 )
+group = ExtResource( 2 )
+text = "E"
+
+[node name="Button_F" type="Button" parent="Container"]
+margin_left = 365.0
+margin_top = 442.0
+margin_right = 405.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 16 )
+group = ExtResource( 2 )
+text = "F"
+
+[node name="Button_G" type="Button" parent="Container"]
+margin_left = 412.0
+margin_top = 442.0
+margin_right = 452.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 58 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 18 )
+group = ExtResource( 2 )
+text = "G"
+
+[node name="Button_H" type="Button" parent="Container"]
+margin_left = 459.0
+margin_top = 442.0
+margin_right = 499.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 20 )
+group = ExtResource( 2 )
+text = "H"
+
+[node name="Button_I" type="Button" parent="Container"]
+margin_left = 506.0
+margin_top = 442.0
+margin_right = 546.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 22 )
+group = ExtResource( 2 )
+text = "I"
+
+[node name="Button_J" type="Button" parent="Container"]
+margin_left = 553.0
+margin_top = 442.0
+margin_right = 593.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 24 )
+group = ExtResource( 2 )
+text = "J"
+
+[node name="Button_K" type="Button" parent="Container"]
+margin_left = 601.0
+margin_top = 442.0
+margin_right = 641.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 26 )
+group = ExtResource( 2 )
+text = "K"
+
+[node name="Button_L" type="Button" parent="Container"]
+margin_left = 648.0
+margin_top = 442.0
+margin_right = 688.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 28 )
+group = ExtResource( 2 )
+text = "L"
+
+[node name="Button_M" type="Button" parent="Container"]
+margin_left = 695.0
+margin_top = 442.0
+margin_right = 735.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 30 )
+group = ExtResource( 2 )
+text = "M"
+
+[node name="Button_N" type="Button" parent="Container"]
+margin_left = 743.0
+margin_top = 442.0
+margin_right = 783.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 32 )
+group = ExtResource( 2 )
+text = "N"
+
+[node name="Button_O" type="Button" parent="Container"]
+margin_left = 791.0
+margin_top = 442.0
+margin_right = 831.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 34 )
+group = ExtResource( 2 )
+text = "O"
+
+[node name="Button_P" type="Button" parent="Container"]
+margin_left = 838.0
+margin_top = 442.0
+margin_right = 878.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 36 )
+group = ExtResource( 2 )
+text = "P"
+
+[node name="Button_Q" type="Button" parent="Container"]
+margin_left = 885.0
+margin_top = 442.0
+margin_right = 925.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 38 )
+group = ExtResource( 2 )
+text = "Q"
+
+[node name="Button_R" type="Button" parent="Container"]
+margin_left = 933.0
+margin_top = 442.0
+margin_right = 973.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 40 )
+group = ExtResource( 2 )
+text = "R"
+
+[node name="Button S" type="Button" parent="Container"]
+margin_left = 980.0
+margin_top = 442.0
+margin_right = 1020.0
+margin_bottom = 482.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 42 )
+group = ExtResource( 2 )
+text = "S"
+
+[node name="Button T" type="Button" parent="Container"]
+margin_left = 389.0
+margin_top = 523.0
+margin_right = 429.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 44 )
+group = ExtResource( 2 )
+text = "T"
+
+[node name="Button U" type="Button" parent="Container"]
+margin_left = 435.0
+margin_top = 523.0
+margin_right = 475.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 46 )
+group = ExtResource( 2 )
+text = "U"
+
+[node name="Button V" type="Button" parent="Container"]
+margin_left = 481.0
+margin_top = 523.0
+margin_right = 521.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 48 )
+group = ExtResource( 2 )
+text = "V"
+
+[node name="Button W" type="Button" parent="Container"]
+margin_left = 528.0
+margin_top = 523.0
+margin_right = 568.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 50 )
+group = ExtResource( 2 )
+text = "W"
+
+[node name="Button X" type="Button" parent="Container"]
+margin_left = 576.0
+margin_top = 523.0
+margin_right = 616.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 52 )
+group = ExtResource( 2 )
+text = "X"
+
+[node name="Button Y" type="Button" parent="Container"]
+margin_left = 623.0
+margin_top = 523.0
+margin_right = 663.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 54 )
+group = ExtResource( 2 )
+text = "Y"
+
+[node name="Button Z" type="Button" parent="Container"]
+margin_left = 670.0
+margin_top = 523.0
+margin_right = 710.0
+margin_bottom = 563.0
+custom_fonts/font = SubResource( 59 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut_in_tooltip = false
+shortcut = SubResource( 56 )
+group = ExtResource( 2 )
+text = "Z"
+
+[node name="Pendu" type="AnimatedSprite" parent="."]
+position = Vector2( 825, 255 )
+frames = SubResource( 1 )
+
+[node name="Menu" type="Button" parent="."]
+margin_left = 5.0
+margin_top = 526.0
+margin_right = 110.0
+margin_bottom = 558.0
+custom_fonts/font = SubResource( 61 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+text = "Menu"
+
+[node name="Nbdemots" type="Button" parent="."]
+visible = false
+margin_left = 390.0
+margin_top = 473.0
+margin_right = 710.0
+margin_bottom = 526.0
+custom_fonts/font = SubResource( 62 )
+custom_styles/hover = ExtResource( 11 )
+custom_styles/normal = ExtResource( 5 )
+shortcut = SubResource( 64 )
+expand_icon = true
+
+[connection signal="button_up" from="Menu" to="." method="_on_Menu_button_up"]

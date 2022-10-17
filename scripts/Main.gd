@@ -106,7 +106,7 @@ func pendu():
 		$Pendu.frame = perdu
 		perdu += 1
 	if perdu == 7 :
-		gainperte = "PERDU"
+		gainperte = "GAME OVER"
 		Brejouer()
 
 
@@ -116,7 +116,7 @@ func gagner():
 	print("g")
 	var b = affichage
 	if a==b :
-		gainperte = "GAGNER"
+		gainperte = "CONGRATULATION"
 		Brejouer()
 
 
@@ -125,7 +125,7 @@ func Brejouer():
 	$Container.queue_free() #dispartion des boutons des lettres
 	$Fin.visible = true
 	var buttonR = Button.new()
-	$Fin.text = "%s - Rejouer" %gainperte
+	$Fin.text = "%s - Play again" %gainperte
 	$Fin.connect("pressed", self, "rejouer")
 	
 #Relance du jeux

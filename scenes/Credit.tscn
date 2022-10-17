@@ -30,15 +30,15 @@ margin_bottom = 444.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_constants/line_spacing = 11
 custom_fonts/font = SubResource( 1 )
-text = "Création : Jelared
+text = "Creator name : Jelared
 
-Moteur de jeux : Godot
+Game engine : Godot
 
-Musique : Relaxing Meditation by Liron
+Music : Relaxing Meditation by Liron
 License (CC BY 4.0)
 Artist website: https://estudiosliron.wixsite.com/liron/home
 
-Octobre 2022"
+October 2022"
 
 [node name="Sprite" type="Sprite" parent="."]
 position = Vector2( 345, 423 )

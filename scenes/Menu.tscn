@@ -52,7 +52,7 @@ margin_bottom = 107.0
 custom_fonts/font = SubResource( 1 )
 custom_styles/hover = ExtResource( 7 )
 custom_styles/normal = ExtResource( 8 )
-text = "Partie classique"
+text = "Classic game"
 
 [node name="points" type="Button" parent="MarginContainer/HBoxContainer"]
 margin_top = 137.0
@@ -62,7 +62,7 @@ custom_fonts/font = SubResource( 1 )
 custom_styles/hover = ExtResource( 7 )
 custom_styles/focus = SubResource( 3 )
 custom_styles/normal = ExtResource( 8 )
-text = "Partie avec points"
+text = "Points game"
 
 [node name="Credit" type="Button" parent="MarginContainer/HBoxContainer"]
 margin_top = 215.0
@@ -80,7 +80,7 @@ margin_right = 1024.0
 margin_bottom = 71.0
 custom_colors/font_color = Color( 0, 0, 0, 1 )
 custom_fonts/font = SubResource( 2 )
-text = "LE PENDU"
+text = "HANGMAN"
 align = 1
 
 [connection signal="button_up" from="MarginContainer/HBoxContainer/classique" to="." method="_on_classique_button_up"]

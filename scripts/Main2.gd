@@ -134,7 +134,7 @@ func recommencer():
 	$Container.visible = false #dispartion des boutons des lettres
 	$Nbdemots.visible = true
 	score = GameValue.ScoreValeur
-	$Nbdemots.text = "Vous avez trouvé : %s mots (cliquez ici pour rejouer ou espace)" % score
+	$Nbdemots.text = "You found %s words (click here or space to play again)" % score
 	$Nbdemots.connect("pressed", self, "rejouer")
 
 	

@@ -17,3 +17,7 @@ Two modes are available
 ### **_Link to the game_**
 
 [itch.io](https://jelared.itch.io/hangman)
+
+### **_Licence_**
+
+This project is licensed under the MIT license
